@@ -1,1 +1,28 @@
-{"api": "0.13", "space": "Amman Valley MakerSpace", "logo": "https://raw.githubusercontent.com/AmmanVMS/space.api/main/cropped-cwmammon-icon-transparent-180x180.png", "url": "https://cwmaman.org.uk/makerspace/", "location": {"address": "Youth Resource Center/MakerSpace, Station Road, Glanamman, SA18 1LQ, Wales, United Kingdom", "lon": -3.92288, "lat": 51.80626}, "contact": {"phone": "01269 823299", "email": "robvenus@cwmamantc.org", "issue_mail": "niccokunzmann@rambler.ru"}, "issue_report_channels": ["issue_mail"], "state": {"open": true}, "projects": ["http://github.com/AmmanVMS"], "cache": {"schedule": "m.02"}}
+{
+    "api": "0.13",
+    "space": "Amman Valley MakerSpace",
+    "logo": "https://raw.githubusercontent.com/AmmanVMS/space.api/main/cropped-cwmammon-icon-transparent-180x180.png",
+    "url": "https://cwmaman.org.uk/makerspace/",
+    "location": {
+        "address": "Youth Resource Center/MakerSpace, Station Road, Glanamman, SA18 1LQ, Wales, United Kingdom",
+        "lon": -3.92288,
+        "lat": 51.80626
+    },
+    "contact": {
+        "phone": "01269 823299",
+        "email": "robvenus@cwmamantc.org",
+        "issue_mail": "niccokunzmann@rambler.ru"
+    },
+    "issue_report_channels": [
+        "issue_mail"
+    ],
+    "state": {
+        "open": true
+    },
+    "projects": [
+        "http://github.com/AmmanVMS"
+    ],
+    "cache": {
+        "schedule": "m.02"
+    }
+}
