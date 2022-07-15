@@ -25,7 +25,7 @@ print("Status " + ("changed to " if has_changed else "remains ") + ("open" if is
 
 if has_changed:
     with open(DATA, "w") as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=4)
     subprocess.check_call(["git", "add", "api.json"], cwd=HERE)
     subprocess.check_call(["git", "commit", "-m", "automatic status update"])
     subprocess.call(["git", "push"])
