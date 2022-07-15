@@ -17,3 +17,8 @@ The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace.
     ```
     * * * * * /home/pi/space.api/check_status.job
     ```
+
+## Hardware setup
+
+See [Using Switch with Raspberry Pi – Python](https://electrosome.com/using-switch-raspberry-pi/).
+
