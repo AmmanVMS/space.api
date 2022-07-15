@@ -17,7 +17,7 @@
         "issue_mail"
     ],
     "state": {
-        "open": false
+        "open": 1
     },
     "projects": [
         "http://github.com/AmmanVMS"
