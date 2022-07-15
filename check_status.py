@@ -11,7 +11,9 @@ import subprocess
 
 HERE = os.path.dirname(__file__) or "."
 DATA = os.path.join(HERE, "api.json")
-STATUS = os.path.join(HERE, "status.sh")
+# status.sh - ping
+# status.py - GPIO button press
+STATUS = os.path.join(HERE, "status.py")
 
 subprocess.call(["git", "pull"], cwd=HERE)
 
