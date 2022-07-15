@@ -12,6 +12,9 @@ The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace.
 4. Clone the repo
     ```
     git clone git@github.com:AmmanVMS/space.api
+    cd space.api
+    git config --local user.email "pi@raspi"
+    git config --local user.name "pi"
     ```
 5. Add crontab with `crontab -e`:
     ```
