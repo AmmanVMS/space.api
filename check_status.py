@@ -31,5 +31,5 @@ if has_changed:
     with open(DATA, "w") as f:
         json.dump(data, f, indent=4)
     subprocess.check_call(["git", "add", "api.json"], cwd=HERE)
-    subprocess.check_call(["git", "commit", "-m", "automatic status update"], cwd=HERE)
+    subprocess.check_call(["git", "commit", "-m", "space is " + ("open" if is_open else "closed")], cwd=HERE)
     subprocess.call(["git", "push"], cwd=HERE)
