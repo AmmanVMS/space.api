@@ -14,14 +14,13 @@
         "issue_mail": "niccokunzmann@rambler.ru"
     },
     "issue_report_channels": [
-        "email": "niccokunzmann@rambler.ru",
-        "issue_mail": "niccokunzmann@rambler.ru"
+        "issue_mail"
     ],
     "state": {
         "open": false
     },
     "projects": [
-        "http://github.com/AmmanVMS",
+        "http://github.com/AmmanVMS"
     ],
     "cache": {
         "schedule": "m.02"
