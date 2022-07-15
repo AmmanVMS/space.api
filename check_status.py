@@ -13,6 +13,8 @@ HERE = os.path.dirname(__file__) or "."
 DATA = os.path.join(HERE, "api.json")
 STATUS = os.path.join(HERE, "status.sh")
 
+subprocess.call(["git", "pull"], cwd=HERE)
+
 with open(DATA) as f:
     data = json.load(f)
 
@@ -27,5 +29,5 @@ if has_changed:
     with open(DATA, "w") as f:
         json.dump(data, f, indent=4)
     subprocess.check_call(["git", "add", "api.json"], cwd=HERE)
-    subprocess.check_call(["git", "commit", "-m", "automatic status update"])
-    subprocess.call(["git", "push"])
+    subprocess.check_call(["git", "commit", "-m", "automatic status update"], cwd=HERE)
+    subprocess.call(["git", "push"], cwd=HERE)
