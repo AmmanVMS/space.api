@@ -1,6 +1,13 @@
 # space.api
 The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace.
 
+## Usage
+
+If the button is on or off, the scripts will upload the current status.
+Since the scripts run each minute once, see crontab and
+GitHub refreshes the page every 5 minutes, it can take up to 
+**6 minutes** until an update arrives on the website.
+
 ## Installation
 
 1. Install git.
