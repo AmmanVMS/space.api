@@ -1,7 +1,7 @@
 # space.api
 The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace.
 
-![image](https://user-images.githubusercontent.com/564768/180646227-e5a9dec4-6eba-4ac0-867f-9a7d7889ea16.png)
+![app logo](https://user-images.githubusercontent.com/564768/180646227-e5a9dec4-6eba-4ac0-867f-9a7d7889ea16.png)
 
 ## Usage
 
@@ -10,7 +10,9 @@ Since the scripts run each minute once, see crontab and
 GitHub refreshes the page every 5 minutes, it can take up to 
 **6 minutes** until an update arrives on the website.
 
-### The App
+### The App MyHackerspace
+
+![image](https://user-images.githubusercontent.com/564768/180648397-77bd6525-fc57-4aa6-b241-db8f5fe593f9.png)
 
 To install the app [MyHackerspace][mhs]:
 
