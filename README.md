@@ -17,7 +17,7 @@ To install the app [MyHackerspace][mhs]:
 1. Head over to [f-droid.org](https://f-droid.org/).
 2. Download the F-Droid app and install it.
 3. Search in it for [MyHackerspace][mhs]: "hacker"
-4. Install the app. ([Direct Download](https://f-droid.org/repo/ch.fixme.status_21.apk))
+4. Install the app. ([Direct Download](https://f-droid.org/repo/ch.fixme.status_21.apk) - not recommended)
 5. Choose `Amman Valley MakerSpace`
 6. If you want the widget:  
     ![image](https://user-images.githubusercontent.com/564768/180646507-8ecbb045-6ed7-4cce-a769-90427883f696.png)
