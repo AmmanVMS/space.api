@@ -1,5 +1,8 @@
 # space.api
-The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace.
+The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace, switched on and off with a big sign that is also a switch.
+
+- You can see a description of how to setup the [MyHackerspace app](#the-app-myhackerspace).
+- You can fork this repository to [set up a Raspberry Pi based HackerSpace status for your own space](#setup-for-your-hackerspace).
 
 ![app logo](https://user-images.githubusercontent.com/564768/180646227-e5a9dec4-6eba-4ac0-867f-9a7d7889ea16.png)
 
@@ -32,7 +35,7 @@ To install the app [MyHackerspace][mhs]:
 
 [mhs]: https://f-droid.org/en/packages/ch.fixme.status/
 
-## Setup For Your Makerspace
+## Setup For Your HackerSpace
 
 You can set up your own Raspberry Pi to report the Hackerspace setup.
 This should walk you through how to do it.
@@ -57,7 +60,7 @@ This should walk you through how to do it.
     git config --local user.email "pi@raspi"
     git config --local user.name "pi"
     ```
-5. Add crontab with `crontab -e`:
+5. Add a minutely check with `crontab -e`:
     ```
     * * * * * /home/pi/space.api/check_status.job
     ```
@@ -65,5 +68,6 @@ This should walk you through how to do it.
 ## Hardware setup
 
 See [Using Switch with Raspberry Pi – Python](https://electrosome.com/using-switch-raspberry-pi/).
+You can also adjust the scripts.
 
 ![image](https://user-images.githubusercontent.com/564768/179254745-3d816c42-57bd-415f-a971-402d4f052f74.png)
