@@ -41,7 +41,9 @@ You can set up your own Raspberry Pi to report the Hackerspace setup.
 This should walk you through how to do it.
 
 1. [Fork this repository.](https://github.com/AmmanVMS/space.api/fork)
-2. Edit [api.json](api.json) to represent your own space.
+2. Edit [api.json](api.json) to represent your own space.  
+    You can replace the `workshop-closed.jpg` and `workshop-oepn.jpg` images or just leave them out for the start.
+    There is loads to customize. have a look at the [documentation](https://spaceapi.io/docs/).
 3. Follow the [Server Installation](#server-installation) described below.
 4. [Check and include](https://spaceapi.io/provide-an-endpoint/) the raw-git URL for your repository's api.json file. ([Example](https://github.com/SpaceApi/directory/pull/205))
 
