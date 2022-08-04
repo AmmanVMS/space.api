@@ -45,9 +45,15 @@ This should walk you through how to do it.
     You can replace the `workshop-closed.jpg` and `workshop-oepn.jpg` images or just leave them out for the start.
     There is loads to customize. have a look at the [documentation](https://spaceapi.io/docs/).
 3. Follow the [Server Installation](#server-installation) described below.
-4. [Check and include](https://spaceapi.io/provide-an-endpoint/) the raw-git URL for your repository's api.json file. ([Example](https://github.com/SpaceApi/directory/pull/205))
+4. Decide if you would like to setup GitHub Pages to serve the endpoint: Fork → Settings → GitHub Pages → choose branch → save.
+    The endpoint should be avaliable under https://**your_fork**.github.io/space.api/app.json
+    That might be faster than the raw representation which caches for a long time.
+5. [Check and include](https://spaceapi.io/provide-an-endpoint/) the raw-git/GitHub Pages URL to the `api.json` file for your repository's api.json file. ([Example](https://github.com/SpaceApi/directory/pull/205))
 
 ## Server Installation
+
+The Raspberry Pi will update the status JSON automatically and push the current status
+to GitHub. GitHub serves as
 
 1. Install git.
 2. Create SSH-Key. 
