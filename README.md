@@ -4,7 +4,9 @@ The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace, 
 - You can see a description of how to setup the [MyHackerspace app](#the-app-myhackerspace).
 - You can fork this repository to [set up a Raspberry Pi based HackerSpace status for your own space](#setup-for-your-hackerspace).
 
-![app logo](https://user-images.githubusercontent.com/564768/180646227-e5a9dec4-6eba-4ac0-867f-9a7d7889ea16.png)
+![current status][status]
+
+[status]: https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
 
 ## Usage
 
@@ -34,6 +36,30 @@ To install the app [MyHackerspace][mhs]:
     6. You will see a button but soon it will have refreshed.
 
 [mhs]: https://f-droid.org/en/packages/ch.fixme.status/
+
+### Status Image
+
+The status image for the space can be found here:
+
+[![status image][status]][status]
+
+Please copy the whole URL if you like to embed it:
+
+    https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
+
+### Status Badge
+
+If you would like to have a small badge displaying the status of the space, you can use this one:
+
+[![][badge]][badge]
+
+Please copy the whole URL:
+
+    https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
+
+[badge]: https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
+
+The badge and the image were both created with the [SpaceAPIStatusImage generator](https://ammanvms.github.io/SpaceAPIStatusImage/).
 
 ## Setup For Your HackerSpace
 
