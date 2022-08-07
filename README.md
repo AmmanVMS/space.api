@@ -79,7 +79,7 @@ This should walk you through how to do it.
 ## Server Installation
 
 The Raspberry Pi will update the status JSON automatically and push the current status
-to GitHub. GitHub serves as
+to GitHub. GitHub serves as a reliable server for the data.
 
 1. Install git.
 2. Create SSH-Key. 
@@ -99,9 +99,15 @@ to GitHub. GitHub serves as
     * * * * * /home/pi/space.api/check_status.job
     ```
 
+Done. Now, the Raspberry Pi checks the status every minute and
+uploads it to GitHub.
+You can check if it works by reading the created log file.
+
 ## Hardware setup
 
 See [Using Switch with Raspberry Pi – Python](https://electrosome.com/using-switch-raspberry-pi/).
 You can also adjust the scripts.
 
 ![image](https://user-images.githubusercontent.com/564768/179254745-3d816c42-57bd-415f-a971-402d4f052f74.png)
+
+You can edit the script to change whether a pressed switch means open or closed.
