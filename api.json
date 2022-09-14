@@ -17,7 +17,7 @@
         "issue_mail"
     ],
     "state": {
-        "open": false,
+        "open": true,
         "icon": {
             "open": "https://raw.githubusercontent.com/AmmanVMS/space.api/main/workshop-open.jpg",
             "closed": "https://raw.githubusercontent.com/AmmanVMS/space.api/main/workshop-closed.jpg"
