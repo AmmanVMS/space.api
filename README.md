@@ -111,3 +111,11 @@ You can also adjust the scripts.
 ![image](https://user-images.githubusercontent.com/564768/179254745-3d816c42-57bd-415f-a971-402d4f052f74.png)
 
 You can edit the script to change whether a pressed switch means open or closed.
+
+## Checking the Status
+
+To check the status, run the
+
+```
+./status.py
+```
