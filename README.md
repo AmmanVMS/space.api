@@ -112,6 +112,9 @@ You can also adjust the scripts.
 
 You can edit the script to change whether a pressed switch means open or closed.
 
+In our case, we also have an LED attached to the swicth so you know if it connects.
+Pins: `black(5V) free red(GND) free free yellow(GPIO)`
+
 ## Checking the Status
 
 To check the status, run the
