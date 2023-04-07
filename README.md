@@ -6,7 +6,7 @@ The [Space API](https://spaceapi.io/) endpoint for the Amman Valley MakerSpace, 
 
 ![current status][status]
 
-[status]: https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
+[status]: https://spaceapistatusimage.hosted.quelltext.eu/status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
 
 ## Usage
 
@@ -45,7 +45,7 @@ The status image for the space can be found here:
 
 Please copy the whole URL if you like to embed it:
 
-    https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
+    https://spaceapistatusimage.hosted.quelltext.eu/status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json
 
 ### Status Badge
 
