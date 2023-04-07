@@ -55,9 +55,9 @@ If you would like to have a small badge displaying the status of the space, you 
 
 Please copy the whole URL:
 
-    https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
+    https://spaceapistatusimage.hosted.quelltext.eu/status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
 
-[badge]: https://space-api-status-image.herokuapp.com//status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
+[badge]: https://spaceapistatusimage.hosted.quelltext.eu/status?url=https%3A%2F%2Fraw.githubusercontent.com%2FAmmanVMS%2Fspace.api%2Fmain%2Fapi.json&open=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-open-lightgreen&closed=https%3A%2F%2Fimg.shields.io%2Fbadge%2FMakerSpace-closed-red
 
 The badge and the image were both created with the [SpaceAPIStatusImage generator](https://ammanvms.github.io/SpaceAPIStatusImage/).
 
